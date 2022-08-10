@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .container {
+        @apply max-w-[1160px]
+    }
+    .deeper::before{
+        @apply  absolute  content-['\2039'] rotate-[269deg] top-[27%] right-[10%]
+     
+    }
+    .price-text{
+        @apply pb-[20px] px-[15px] uppercase text-color_text bg-pp 
+    }
+    .price-price{
+        @apply text-color_text font-bold pl-[15px] bg-pp
+    }
+    .main-tr{
+        @apply   items-center flex gap-[5px]
+    }
+    td{
+        @apply border-4 border-bg_price
+    }
+    .row-condec ul li{
+        @apply mt-[10px] text-color_text
+    }
+    .row-condec ul li:before{
+       
+        @apply absolute content-[''] bg-[#2489DA] ml-[-3%] rounded-full w-[10px] h-[10px] mt-[7px]
+
+    }
+    .main-menu a:hover{
+        @apply bg-color_menu text-van
+    }
+    .footer-zagolovok{
+        @apply uppercase text-[16px] font-bold mb-[10px]
+    }
+    .footer-sub{
+        @apply text-[14px] fill-black mb-[8px]
+    }
+}
