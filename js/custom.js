@@ -5,8 +5,8 @@ $('.row_slider').slick({
    
     dots:true,
     autoplaySpeed: 2000,
-    nextArrow: '<img src="../img/left-next.svg" alt="" class="slick-prev slick-arrow">',
-    prevArrow: '<img src="../img/rigth-next.svg" alt="" class="slick-next slick-arrow" >',
+    nextArrow: '<img src="./img/left-next.svg" alt="" class="slick-prev slick-arrow">',
+    prevArrow: '<img src="./img/rigth-next.svg" alt="" class="slick-next slick-arrow" >',
     responsive: [
       {
         breakpoint: 1224,
